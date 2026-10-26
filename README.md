@@ -1,8 +1,8 @@
-# UIScrollAddict
+# UIScroll
 
 Make your website impossible to leave.
 
-**UIScrollAddict** is a lightweight web component designed to hook users into scrolling your site. By combining smooth visual animations with simulated physical haptic feedback (device vibration + subtle audio ticks), it turns a standard webpage scroll into a highly satisfying, tactile, and addictive experience.
+**UIScroll** is a lightweight web component designed to hook users into scrolling your site. By combining smooth visual animations with simulated physical haptic feedback, it turns a standard webpage scroll into a highly satisfying, tactile, and addictive experience.
 
 ## ✨ Why It Works
 
@@ -14,7 +14,7 @@ Make your website impossible to leave.
 ## 🚀 How to Use
 
 1. Just copy and paste the JS code below into your project.
-   ```
+   ```js
    const startScreen = document.getElementById('start');
     const startBtn = document.getElementById('startBtn');
     const progress = document.getElementById('progress');
@@ -137,7 +137,7 @@ Make your website impossible to leave.
       lastScroll = s;
     }, { passive: true });
 2. Сopy and paste the CSS code below into your project.
-    ```
+    ```CSS
    * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
     body { height: 100vh; overflow: hidden; background: #000; font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif; color: #fff; }
     .confetti { position: fixed; inset: 0; z-index: 2000; pointer-events: none; }
