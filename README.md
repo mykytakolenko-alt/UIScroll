@@ -4,6 +4,16 @@ Make your website impossible to leave.
 
 **UIScroll** is a lightweight web component designed to hook users into scrolling your site. By combining smooth visual animations with simulated physical haptic feedback, it turns a standard webpage scroll into a highly satisfying, tactile, and addictive experience.
 
+Watch demo:
+
+
+https://github.com/user-attachments/assets/bb5b0090-eff3-4b89-93ec-8de73e091361
+
+
+
+
+Try it live here (better on your smartphone): https://zesty-churros-cb9de5.netlify.app
+
 ## ✨ Why It Works
 
 - **Physical Feedback**: Triggers real device vibration (`navigator.vibrate`) on mobile as you scroll through content zones.
